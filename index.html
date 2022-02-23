@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,12 +19,95 @@
   </head>
   <body>
     <div class="container">
-      <div class="header"></div>
-      <div class="hero"></div>
-      <div class="portfolio"></div>
-      <div class="quote"></div>
-      <div class="cta"></div>
-      <div class="footer"></div>
+      <div class="header">
+        <div class="nav">
+          <div class="logo"></div>
+          <ul>
+            <li class="link1">Header Link One</li>
+            <li class="link2">Header Link Two</li>
+            <li class="link3">Header Link Three</li>
+          </ul>
+        </div>
+      </div>
+      <!-- end header -->
+
+      <div class="hero">
+        <div class="hero-cta">
+          <h1>This Website is Awesome</h1>
+          <h2>
+            This website is some subtext that goes here under the main title.
+            It's smaller font and the color is lower contrast
+          </h2>
+          <button class="btn btn-inverse">Sign Up</button>
+        </div>
+        <div class="hero-image">
+          <img src="https://placeimg.com/500/300/nature" alt="Nature" />
+        </div>
+      </div>
+      <!-- end hero -->
+
+      <div class="portfolio">
+        <h3>Some random information</h3>
+        <div class="portfolio-images">
+          <img
+            src="https://placeimg.com/200/200/nature"
+            alt="Nature"
+            class="p-image1"
+          />
+          <p>this is some subtext under an illustration</p>
+
+          <img
+            src="https://placeimg.com/200/200/nature"
+            alt="Nature"
+            class="p-image1"
+          />
+          <p>this is some subtext under an illustration</p>
+
+          <img
+            src="https://placeimg.com/200/200/nature"
+            alt="Nature"
+            class="p-image1"
+          />
+          <p>this is some subtext under an illustration</p>
+
+          <img
+            src="https://placeimg.com/200/200/nature"
+            alt="Nature"
+            class="p-image1"
+          />
+          <p>this is some subtext under an illustration</p>
+        </div>
+      </div>
+      <!-- end portfolio -->
+
+      <div class="quote">
+        <blockquote>
+          This is an inspiring quote, or a testimonial from a customer. Maybe
+          it's just filling up space, or maybe people will actually read it. Who
+          knows? All I know is that it looks nice
+        </blockquote>
+        <figcaption>&mdash; Thor, God of Thunder</figcaption>
+      </div>
+      <!-- end quote -->
+
+      <div class="cta">
+        <div class="cta-box">
+          <div class="cta-text">
+            <h4>Call to Action! it's Time!</h4>
+            <p>
+              Sign up for our product by clocking that button right over there!
+            </p>
+            <button class="btn btn-inverse">Sign up</button>
+          </div>
+        </div>
+      </div>
+      <!-- end cta -->
+
+      <div class="footer">
+        <p>Copyright 	&#169; The Odin Project 2022</p>
+      </div>
+      <!-- end footer -->
     </div>
+    <!-- end container -->
   </body>
 </html>
