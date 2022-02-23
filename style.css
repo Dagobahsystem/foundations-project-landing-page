@@ -24,20 +24,32 @@ a {
     align-items: center;
 }
 
+.nav,
+.hero {
+    width: 1200px;
+}
+
+.logo, 
+.nav ul,
+.hero-cta,
+.hero-image {
+    padding: 0 20px;
+}
+
+button {
+    border-radius: .25em;
+    border: none;
+    padding: 10px 25px;
+    color: #e5e7eb;
+}
 
 /******* nav *******/
 
 .nav {
-    width: 1400px;
     display: flex;
     align-items: center;
     justify-items: flex-start;
     flex-wrap: none;
-}
-
-.logo, 
-.nav ul {
-    padding: 0 20px;
 }
 
 .logo {
@@ -60,12 +72,44 @@ a {
 }
 
 
-/******* hero *******/
+/******* hero.container *******/
 
-.hero {
+.hero-container {
     background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 80px 0;
     width: 100%;
     display: flex;
+    justify-content: center;
+
+    
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-cta {
+    align-self: flex-start;
+}
+
+.btn-inverse {
+    background-color: #3882f6;
+}
+
+.hero-cta,
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 200px;
+}
+
+
 
 
