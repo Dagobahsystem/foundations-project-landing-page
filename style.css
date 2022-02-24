@@ -118,7 +118,6 @@ button {
   background-color: #1b69e6;
 }
 
-
 .hero-cta,
 .hero-image {
   flex: 1;
@@ -243,12 +242,11 @@ button {
 
 .btn-outline:hover,
 .btn-outline:active {
-  background-color: rgba(249, 250, 248, 0.20);
+  background-color: rgba(249, 250, 248, 0.2);
 }
 
 .cta-btn {
   margin-left: auto;
-
 }
 
 /******* footer *******/
@@ -260,3 +258,5 @@ button {
   padding: 20px;
   width: 100%;
 }
+
+
