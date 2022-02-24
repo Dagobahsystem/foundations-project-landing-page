@@ -7,6 +7,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #f9faf8;
 }
 
 .container {
@@ -26,12 +27,14 @@ a {
 }
 
 .nav,
-.hero {
+.hero,
+.cta-box {
   width: 1200px;
 }
 
 .portfolio-sections,
-.quote {
+.quote,
+.cta-container {
   width: 960px;
 }
 
@@ -79,18 +82,20 @@ button {
 
 /******* hero-container *******/
 
+.hero-container,
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
 .hero-container {
   background-color: #1f2937;
   color: #e5e7eb;
   padding: 80px 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .hero {
-  display: flex;
-  justify-content: center;
   align-items: center;
   gap: 50px;
 }
@@ -101,7 +106,18 @@ button {
 
 .btn-inverse {
   background-color: #3882f6;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
+
+.btn-inverse:hover,
+.btn-inverse:active {
+  background-color: #1b69e6;
+}
+
 
 .hero-cta,
 .hero-image {
@@ -138,6 +154,7 @@ button {
   display: flex;
   flex-direction: column;
   text-align: center;
+  width: 200px;
 }
 
 .portfolio-images img {
@@ -173,4 +190,73 @@ button {
 .quote figcaption {
   text-align: right;
   font-weight: 600;
+}
+
+/******* cta *******/
+
+.cta,
+.cta-box,
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta {
+  padding: 50px;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  border-radius: 0.5em;
+  padding: 20px 0;
+}
+
+.cta-container {
+  gap: 30px;
+  color: #f9faf8;
+}
+
+.cta-text {
+  margin-right: auto;
+}
+
+.cta-text h4 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.cta-text p {
+  margin-top: 3px;
+}
+
+.btn-outline {
+  border: #f9faf8 2px solid;
+  background-color: transparent;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.btn-outline:hover,
+.btn-outline:active {
+  background-color: rgba(249, 250, 248, 0.20);
+}
+
+.cta-btn {
+  margin-left: auto;
+
+}
+
+/******* footer *******/
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
 }
