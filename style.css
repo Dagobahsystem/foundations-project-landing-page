@@ -32,7 +32,7 @@ a {
 
 .portfolio-sections,
 .quote {
-    width: 960px;
+  width: 960px;
 }
 
 .logo,
@@ -116,63 +116,61 @@ button {
 /******* portfolio *******/
 
 .portfolio {
-    padding: 80px;
+  padding: 80px;
 }
 
 .portfolio h3 {
-    font-size: 36px;
-    text-align: center;
-    padding-bottom: 20px;
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .portfolio-sections {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-    padding: 0 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 0 80px;
 }
 
 .portfolio-images {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-
 
 .portfolio-images img {
-    border: #3882f6 3px solid;
-    border-radius: 0.5em;
+  border: #3882f6 3px solid;
+  border-radius: 0.5em;
 }
-
 
 /******* quote *******/
 
 .quote-container {
-    background-color: #e5e7eb;
-    width: 100%;
-    padding: 120px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #e5e7eb;
+  width: 100%;
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote {
-    text-align: center;
-    display: flex;
-    flex-direction: column;   
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .quote blockquote {
-    margin: 0;
-    text-align: justify;
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
+  margin: 0;
+  text-align: justify;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .quote figcaption {
-    text-align: right;
-    font-weight: 600;
+  text-align: right;
+  font-weight: 600;
 }
